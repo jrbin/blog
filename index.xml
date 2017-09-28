@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JrBin on Jrbin</title>
-    <link>/</link>
+    <link>https://jrbin.github.io/blog/</link>
     <description>Recent content in JrBin on Jrbin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 13 Sep 2017 20:33:49 +1000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jrbin.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Avoid Using Unsigned</title>
-      <link>/stack/avoid-using-unsigned/</link>
+      <link>https://jrbin.github.io/blog/stack/avoid-using-unsigned/</link>
       <pubDate>Fri, 22 Sep 2017 10:58:50 +1000</pubDate>
       
-      <guid>/stack/avoid-using-unsigned/</guid>
+      <guid>https://jrbin.github.io/blog/stack/avoid-using-unsigned/</guid>
       <description>unsigned在c语言中的设计稍微有点尴尬，或者说它被滥用了。
 首先说明我认为除了在进行位运算中应该用unsigned，其他时候都应该用signed。
 比如说，通常表示一个非负整数的的时候可能想到要用unsigned。但unsigned有一些特性和非负整数非常不一致
@@ -32,10 +32,10 @@
     
     <item>
       <title>Extra Empty String of Split</title>
-      <link>/stack/extra-empty-string-of-split/</link>
+      <link>https://jrbin.github.io/blog/stack/extra-empty-string-of-split/</link>
       <pubDate>Fri, 22 Sep 2017 10:58:50 +1000</pubDate>
       
-      <guid>/stack/extra-empty-string-of-split/</guid>
+      <guid>https://jrbin.github.io/blog/stack/extra-empty-string-of-split/</guid>
       <description>例子如下
  &amp;gt;&amp;gt;&amp;gt; &#39;/segment/segment/&#39;.split(&#39;/&#39;) [&#39;&#39;, &#39;segment&#39;, &#39;segment&#39;, &#39;&#39;]  这是一个常见的问题，通常我们会期望这个split之后前后是没有empty string的。因为我们split就是为去掉分隔符和没有实际意义的值。
 但python中的split就是这样工作的，我也发现scala中的split也是同样。说明大多数语言里可能都是这样实现。
@@ -48,10 +48,10 @@ That way, separator components are always found at the same relative indices wit
     
     <item>
       <title>Template Friend Function</title>
-      <link>/stack/template-friend-function/</link>
+      <link>https://jrbin.github.io/blog/stack/template-friend-function/</link>
       <pubDate>Fri, 22 Sep 2017 10:58:50 +1000</pubDate>
       
-      <guid>/stack/template-friend-function/</guid>
+      <guid>https://jrbin.github.io/blog/stack/template-friend-function/</guid>
       <description>c++中，如果template class中有friend函数，比如常见的重载operator&amp;lt;&amp;lt;是friend，可能就会报一个尴尬的错误
 template &amp;lt;typename T&amp;gt; class btree { public: // see https://stackoverflow.com/q/4660123 friend std::ostream&amp;amp; operator&amp;lt;&amp;lt;(std::ostream&amp;amp; out, const btree&amp;lt;T&amp;gt;&amp;amp; tree); };  error: friend declaration &#39;std::ostream&amp;amp; operator&amp;lt;&amp;lt;(std::ostream&amp;amp;, const btree&amp;lt;T&amp;gt;&amp;amp;)&#39; declares a non-template function [-Werror=non-template-friend] friend std::ostream&amp;amp; operator&amp;lt;&amp;lt;(std::ostream&amp;amp; out, const btree&amp;lt;T&amp;gt;&amp;amp; tree); ^  这个错误我试过在gcc4.9和gcc6.3上都会报，在clang上不会报。
 其实用脚趾头猜猜就能想到因为friend本身不属于这个class，它就无法利用这个class的template参数T。但其实一般人写成这样应该觉得没什么问题，别的程序员也能读懂。
@@ -63,10 +63,10 @@ template &amp;lt;typename T&amp;gt; class btree { public: template &amp;lt;typen
     
     <item>
       <title>COMP9024 Graph Algorithm</title>
-      <link>/cs9024/comp9024-graph-algo/</link>
+      <link>https://jrbin.github.io/blog/cs9024/comp9024-graph-algo/</link>
       <pubDate>Fri, 15 Sep 2017 06:17:41 +0000</pubDate>
       
-      <guid>/cs9024/comp9024-graph-algo/</guid>
+      <guid>https://jrbin.github.io/blog/cs9024/comp9024-graph-algo/</guid>
       <description>Path finding DFS Depth first search 深度优先
 0 0, 1 0, 1, 5 0, 1, 5, 3 0, 1, 5, 3, 2 0, 1, 5, 3, 4 0, 1, 5, 3, 4, 7 0, 1, 5, 3, 4, 7, 8 0, 1, 5, 3, 4, 7, 8, 9 0, 1, 5, 6  伪代码
 function dfs(src, dst) { visited[src] = true for edge from src { if not visited[edge.dst] { if edge.</description>
@@ -74,10 +74,10 @@ function dfs(src, dst) { visited[src] = true for edge from src { if not visited[
     
     <item>
       <title>COMP9024 Graph Algorithm</title>
-      <link>/post/comp9024-graph-algo/</link>
+      <link>https://jrbin.github.io/blog/post/comp9024-graph-algo/</link>
       <pubDate>Fri, 15 Sep 2017 06:17:41 +0000</pubDate>
       
-      <guid>/post/comp9024-graph-algo/</guid>
+      <guid>https://jrbin.github.io/blog/post/comp9024-graph-algo/</guid>
       <description>Graph Algorithm Path finding DFS Depth first search 深度优先
 0 0, 1 0, 1, 5 0, 1, 5, 3 0, 1, 5, 3, 2 0, 1, 5, 3, 4 0, 1, 5, 3, 4, 7 0, 1, 5, 3, 4, 7, 8 0, 1, 5, 3, 4, 7, 8, 9 0, 1, 5, 6  伪代码
 function dfs(src, dst) { visited[src] = true for edge from src { if not visited[edge.</description>
@@ -85,28 +85,28 @@ function dfs(src, dst) { visited[src] = true for edge from src { if not visited[
     
     <item>
       <title>COMP9024 Midterm</title>
-      <link>/cs9024/comp9024-midterm/</link>
+      <link>https://jrbin.github.io/blog/cs9024/comp9024-midterm/</link>
       <pubDate>Thu, 14 Sep 2017 13:27:51 +0000</pubDate>
       
-      <guid>/cs9024/comp9024-midterm/</guid>
+      <guid>https://jrbin.github.io/blog/cs9024/comp9024-midterm/</guid>
       <description>Pointers Pass by value void swap(int a, int b) { int t = a; a = b; b = t; } void swap(int *a, int *b) { int t = *a; *a = *b; *b = t; } typedef struct { int x; int y; } Point; void init_point(Point *dst) { dst-&amp;gt;x = 1; dst-&amp;gt;y = 2; } Point *p = (Point *) malloc(sizeof(Point)); init_point(p); free(p);  Exercise int data[12] = {5, 3, 6, 2, 7, 4, 9, 1, 8}; // data == 0x00010000     Expression Result     data + 4 0x00010010   *data + 4 9   *(data + 4) 7   data[4] 7   *(data + *(data + 3)) 6   data[data[2]] 9    typedef struct { int studentID; int age; char gender; float WAM; } PersonT; PersonT per1; PersonT per2; PersonT *ptr; ptr = &amp;amp;per1; per1.</description>
     </item>
     
     <item>
       <title>COMP9024 Midterm</title>
-      <link>/post/comp9024-midterm/</link>
+      <link>https://jrbin.github.io/blog/post/comp9024-midterm/</link>
       <pubDate>Thu, 14 Sep 2017 13:27:51 +0000</pubDate>
       
-      <guid>/post/comp9024-midterm/</guid>
+      <guid>https://jrbin.github.io/blog/post/comp9024-midterm/</guid>
       <description>COMP9024 Midterm Pointers Pass by value void swap(int a, int b) { int t = a; a = b; b = t; } void swap(int *a, int *b) { int t = *a; *a = *b; *b = t; } typedef struct { int x; int y; } Point; void init_point(Point *dst) { dst-&amp;gt;x = 1; dst-&amp;gt;y = 2; } Point *p = (Point *) malloc(sizeof(Point)); init_point(p); free(p);  Exercise int data[12] = {5, 3, 6, 2, 7, 4, 9, 1, 8}; // data == 0x00010000     Expression Result     data + 4 0x00010010   *data + 4 9   *(data + 4) 7   data[4] 7   *(data + *(data + 3)) 6   data[data[2]] 9    typedef struct { int studentID; int age; char gender; float WAM; } PersonT; PersonT per1; PersonT per2; PersonT *ptr; ptr = &amp;amp;per1; per1.</description>
     </item>
     
     <item>
       <title>Postgresql References</title>
-      <link>/cs9311/postgresql-references/</link>
+      <link>https://jrbin.github.io/blog/cs9311/postgresql-references/</link>
       <pubDate>Wed, 13 Sep 2017 20:33:49 +1000</pubDate>
       
-      <guid>/cs9311/postgresql-references/</guid>
+      <guid>https://jrbin.github.io/blog/cs9311/postgresql-references/</guid>
       <description>Constants    Type Example Note     string &amp;lsquo;hello, world&amp;rsquo; 不能用双引号   string with escape E&amp;rsquo;hello, world\n&amp;rsquo; &amp;lsquo;\n&amp;rsquo;会被当作换行输出，跟C语言中字符串类似   multiline string $$abc$$ $$中间可以有字符，比如$func$abc$func$   boolean true, false    numeric 12.34 没有单引号以及不是boolean的都被视为numeric    双引号作为escape关键词的手段要少用（即尽量不要用关键词作为identifier）（而且双引号可以指定有大写字母的identifier，正常来说SQL的identifier是大小写不分的）
 例如
 create table &amp;quot;table&amp;quot;(); -- 可行的但不建议 create table &amp;quot;Table&amp;quot;(); -- 可行的但不建议  其他类型
@@ -115,10 +115,10 @@ type &#39;string&#39; &#39;string&#39;::type CAST ( &#39;string&#39; AS type ) -
     
     <item>
       <title>Postgresql References</title>
-      <link>/post/postgresql-references/</link>
+      <link>https://jrbin.github.io/blog/post/postgresql-references/</link>
       <pubDate>Wed, 13 Sep 2017 20:33:49 +1000</pubDate>
       
-      <guid>/post/postgresql-references/</guid>
+      <guid>https://jrbin.github.io/blog/post/postgresql-references/</guid>
       <description>Postgresql References Constants    Type Example Note     string &amp;lsquo;hello, world&amp;rsquo; 不能用双引号   string with escape E&amp;rsquo;hello, world\n&amp;rsquo; &amp;lsquo;\n&amp;rsquo;会被当作换行输出，跟C语言中字符串类似   multiline string $$abc$$ $$中间可以有字符，比如$func$abc$func$   boolean true, false    numeric 12.34 没有单引号以及不是boolean的都被视为numeric    双引号作为escape关键词的手段要少用（即尽量不要用关键词作为identifier）（而且双引号可以指定有大写字母的identifier，正常来说SQL的identifier是大小写不分的）
 例如
 create table &amp;quot;table&amp;quot;(); -- 可行的但不建议 create table &amp;quot;Table&amp;quot;(); -- 可行的但不建议  其他类型

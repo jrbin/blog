@@ -3,159 +3,159 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/stack/</loc>
+    <loc>https://jrbin.github.io/blog/stack/</loc>
     <lastmod>2017-09-22T10:58:50+10:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://jrbin.github.io/blog/post/</loc>
     <lastmod>2017-09-15T06:17:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/cs9021/</loc>
+    <loc>https://jrbin.github.io/blog/cs9021/</loc>
   </url>
   
   <url>
-    <loc>/cs9311/</loc>
+    <loc>https://jrbin.github.io/blog/cs9311/</loc>
     <lastmod>2017-09-13T20:33:49+10:00</lastmod>
   </url>
   
   <url>
-    <loc>/cs9024/</loc>
+    <loc>https://jrbin.github.io/blog/cs9024/</loc>
     <lastmod>2017-09-15T06:17:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/stack/avoid-using-unsigned/</loc>
+    <loc>https://jrbin.github.io/blog/stack/avoid-using-unsigned/</loc>
     <lastmod>2017-09-22T10:58:50+10:00</lastmod>
   </url>
   
   <url>
-    <loc>/stack/extra-empty-string-of-split/</loc>
+    <loc>https://jrbin.github.io/blog/stack/extra-empty-string-of-split/</loc>
     <lastmod>2017-09-22T10:58:50+10:00</lastmod>
   </url>
   
   <url>
-    <loc>/stack/template-friend-function/</loc>
+    <loc>https://jrbin.github.io/blog/stack/template-friend-function/</loc>
     <lastmod>2017-09-22T10:58:50+10:00</lastmod>
   </url>
   
   <url>
-    <loc>/cs9024/comp9024-graph-algo/</loc>
+    <loc>https://jrbin.github.io/blog/cs9024/comp9024-graph-algo/</loc>
     <lastmod>2017-09-15T06:17:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/comp9024-graph-algo/</loc>
+    <loc>https://jrbin.github.io/blog/post/comp9024-graph-algo/</loc>
     <lastmod>2017-09-15T06:17:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/cs9024/comp9024-midterm/</loc>
+    <loc>https://jrbin.github.io/blog/cs9024/comp9024-midterm/</loc>
     <lastmod>2017-09-14T13:27:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/comp9024-midterm/</loc>
+    <loc>https://jrbin.github.io/blog/post/comp9024-midterm/</loc>
     <lastmod>2017-09-14T13:27:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://jrbin.github.io/blog/</loc>
     <lastmod>2017-09-13T20:33:49+10:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/"
+                href="https://jrbin.github.io/blog/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="https://jrbin.github.io/blog/"
                 />
   </url>
   
   <url>
-    <loc>/cs9311/postgresql-references/</loc>
+    <loc>https://jrbin.github.io/blog/cs9311/postgresql-references/</loc>
     <lastmod>2017-09-13T20:33:49+10:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/postgresql-references/</loc>
+    <loc>https://jrbin.github.io/blog/post/postgresql-references/</loc>
     <lastmod>2017-09-13T20:33:49+10:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/c/c&#43;&#43;/</loc>
+    <loc>https://jrbin.github.io/blog/tags/c/c&#43;&#43;/</loc>
     <lastmod>2017-09-22T10:58:50+10:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://jrbin.github.io/blog/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/categories/"
+                href="https://jrbin.github.io/blog/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="https://jrbin.github.io/blog/categories/"
                 />
   </url>
   
   <url>
-    <loc>/tags/comp9024/</loc>
+    <loc>https://jrbin.github.io/blog/tags/comp9024/</loc>
     <lastmod>2017-09-15T06:17:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/comp9311/</loc>
+    <loc>https://jrbin.github.io/blog/tags/comp9311/</loc>
     <lastmod>2017-09-13T20:33:49+10:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/database/</loc>
+    <loc>https://jrbin.github.io/blog/tags/database/</loc>
     <lastmod>2017-09-13T20:33:49+10:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/postgresql/</loc>
+    <loc>https://jrbin.github.io/blog/tags/postgresql/</loc>
     <lastmod>2017-09-13T20:33:49+10:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/python/</loc>
+    <loc>https://jrbin.github.io/blog/tags/python/</loc>
     <lastmod>2017-09-22T10:58:50+10:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/sql/</loc>
+    <loc>https://jrbin.github.io/blog/tags/sql/</loc>
     <lastmod>2017-09-13T20:33:49+10:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://jrbin.github.io/blog/tags/</loc>
     <lastmod>2017-09-22T10:58:50+10:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/tags/"
+                href="https://jrbin.github.io/blog/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="https://jrbin.github.io/blog/tags/"
                 />
   </url>
   
