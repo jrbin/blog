@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.27.1" />
+    <meta name="description" content="Jrbin">
+<meta name="author" content="Cooper">
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+
+    <title>Template Friend Function :: Jrbin</title>
+    
+    
+    <link href="/css/nucleus.css?1506606600" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1506606600" rel="stylesheet">
+    <link href="/css/hybrid.css?1506606600" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1506606600" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1506606600" rel="stylesheet">
+    <link href="/css/horsey.css?1506606600" rel="stylesheet">
+    <link href="/css/theme.css?1506606600" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1506606600" rel="stylesheet">
+    
+
+    <script src="/js/jquery-2.x.min.js?1506606600"></script>
+    
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{ 
+          display:none !important;
+      }
+      
+        :not(pre) > code + span.copy-to-clipboard {
+            display: none;
+        }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/stack/template-friend-function/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="/">JrBin
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fa fa-search"></i></label>
+    <input data-search-input id="search-by" type="text" placeholder="Search...">
+    <span data-search-clear=""><i class="fa fa-close"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1506606600"></script>
+<script type="text/javascript" src="/js/horsey.js?1506606600"></script>
+<script type="text/javascript">
+    
+        var baseurl = "\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1506606600"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/stack/" title="Stack" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/stack/">
+          <b>1. </b>Stack
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/stack/avoid-using-unsigned/" title="Avoid Using Unsigned" class="dd-item ">
+        <a href="/stack/avoid-using-unsigned/">
+        Avoid Using Unsigned
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/stack/extra-empty-string-of-split/" title="Extra Empty String of Split" class="dd-item ">
+        <a href="/stack/extra-empty-string-of-split/">
+        Extra Empty String of Split
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/stack/template-friend-function/" title="Template Friend Function" class="dd-item active">
+        <a href="/stack/template-friend-function/">
+        Template Friend Function
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/post/" title="Posts" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/post/">
+          <b>2. </b>Posts
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/post/comp9024-graph-algo/" title="COMP9024 Graph Algorithm" class="dd-item ">
+        <a href="/post/comp9024-graph-algo/">
+        COMP9024 Graph Algorithm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/post/comp9024-midterm/" title="COMP9024 Midterm" class="dd-item ">
+        <a href="/post/comp9024-midterm/">
+        COMP9024 Midterm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/post/postgresql-references/" title="Postgresql References" class="dd-item ">
+        <a href="/post/postgresql-references/">
+        Postgresql References
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cs9021/" title="9021" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cs9021/">
+          <b>3. </b>9021
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cs9311/" title="9311" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cs9311/">
+          <b>4. </b>9311
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cs9311/postgresql-references/" title="Postgresql References" class="dd-item ">
+        <a href="/cs9311/postgresql-references/">
+        Postgresql References
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cs9024/" title="9024" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cs9024/">
+          <b>5. </b>9024
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cs9024/comp9024-graph-algo/" title="COMP9024 Graph Algorithm" class="dd-item ">
+        <a href="/cs9024/comp9024-graph-algo/">
+        COMP9024 Graph Algorithm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cs9024/comp9024-midterm/" title="COMP9024 Midterm" class="dd-item ">
+        <a href="/cs9024/comp9024-midterm/">
+        COMP9024 Midterm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li class="" role=""> 
+                  <a class="padding" href="https://github.com/jrbin/blog"><i class='fa fa-github'></i> Github repo</a>
+              </li>
+          
+              <li class="" role=""> 
+                  <a class="padding" href="/showcase"><i class='fa fa-camera'></i> Showcases</a>
+              </li>
+          
+              <li class="" role=""> 
+                  <a class="padding" href="https://gohugo.io/"><i class='fa fa-bookmark'></i> Hugo Documentation</a>
+              </li>
+          
+              <li class="" role=""> 
+                  <a class="padding" href="/credits"><i class='fa fa-bullhorn'></i> Credits</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="prefooter">
+      <hr/>
+      <ul>
+       
+      
+      
+      </ul>
+    </section>
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fa fa-heart"></i></a> from <a href="http://getgrav.org">Grav</a> and <a href="http://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable sticky-parent">
+              
+              <div class="sticky-spacer">
+                <div id="top-bar">
+                
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" href="https://github.com/jrbin/blog/edit/master/content/stack/template-friend-function.md" target="blank">
+                      <i class="fa fa-code-fork"></i>
+                      Edit this page
+                    </a>
+                  </div>
+                  
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>JrBin</a> > <a href='/stack/'>Stack</a> > Template Friend Function
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#方法1">方法1</a></li>
+<li><a href="#方法2">方法2</a></li>
+<li><a href="#方法3">方法3</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+
+        
+        <div id="body-inner">
+          
+            <h1>Template Friend Function</h1>
+          
+
+        
+
+
+
+<p>c++中，如果template class中有friend函数，比如常见的重载operator&lt;&lt;是friend，可能就会报一个尴尬的错误</p>
+
+<pre><code class="language-c++">template &lt;typename T&gt;
+class btree {
+public:
+  // see https://stackoverflow.com/q/4660123
+  friend std::ostream&amp; operator&lt;&lt;(std::ostream&amp; out, const btree&lt;T&gt;&amp; tree);
+};
+</code></pre>
+
+<pre><code class="language-shell">error: friend declaration 'std::ostream&amp; operator&lt;&lt;(std::ostream&amp;, const btree&lt;T&gt;&amp;)' declares a non-template function [-Werror=non-template-friend]
+   friend std::ostream&amp; operator&lt;&lt;(std::ostream&amp; out, const btree&lt;T&gt;&amp; tree);
+                                                                          ^
+</code></pre>
+
+<p>这个错误我试过在gcc4.9和gcc6.3上都会报，在clang上不会报。</p>
+
+<p>其实用脚趾头猜猜就能想到因为friend本身不属于这个class，它就无法利用这个class的template参数T。但其实一般人写成这样应该觉得没什么问题，别的程序员也能读懂。</p>
+
+<p>这里吐槽一下，通过这个我们发现c++就是一个不符合程序员逻辑的语言，gcc是一个没有逻辑的编译系统。编译器上的问题交给c++语法解决，导致c++不是一个通过人类逻辑设计的语言，而是一个用编译器逻辑设计的语言。</p>
+
+<p>说一下解决方法。<a href="https://stackoverflow.com/q/4660123">这个问答</a>给我们提供了两种不同的思路。</p>
+
+<h2 id="方法1">方法1</h2>
+
+<p>直接把friend也声明成一个template函数，注意friend的template是不依赖于class的template的。而且typename不能写成T否则会shadow T。</p>
+
+<pre><code class="language-c++">template &lt;typename T&gt;
+class btree {
+public:
+  template &lt;typename U&gt;
+  friend std::ostream&amp; operator&lt;&lt;(std::ostream&amp; out, const btree&lt;U&gt;&amp; tree);
+};
+</code></pre>
+
+<p>好好的函数非要写成这样，扩大它的接受范围，我又能说啥呢。</p>
+
+<h2 id="方法2">方法2</h2>
+
+<p>inline的实现，就是把实现直接写声明那块。</p>
+
+<pre><code class="language-c++">template &lt;typename T&gt;
+class btree {
+public:
+  friend std::ostream&amp; operator&lt;&lt;(std::ostream&amp; out, const btree&lt;T&gt;&amp; tree) {
+    out &lt;&lt; &quot;yeah&quot;;
+    return out;
+  }
+};
+</code></pre>
+
+<p>这也不是特别好，因为声明与定义分离是c/c++的重要原则。（都template说什么声明定义分离，尴尬）</p>
+
+<h2 id="方法3">方法3</h2>
+
+<p>课上提到的，也可以参考<a href="http://en.cppreference.com/w/cpp/language/friend#Template_friend_operators">这个</a></p>
+
+<p>也就是说，首先声明friend是一个template，然后在template class中用参数T具体化它。其实跟方法1差不多，但是每个class中这个operator&lt;&lt;都是跟T绑定的。而方法1中的operator&lt;&lt;可以接受btree&lt;U&gt;, btree&lt;V&gt;, whatever.</p>
+
+<pre><code class="language-c++">template &lt;typename T&gt; class btree;
+template &lt;typename T&gt; std::ostream&amp; operator&lt;&lt;(std::ostream&amp; os, const btree&lt;T&gt;&amp; tree);
+
+template &lt;typename T&gt;
+class btree {
+public:
+  friend std::ostream&amp; operator&lt;&lt; &lt;T&gt; (std::ostream&amp; out, const btree&lt;T&gt;&amp; tree);
+};
+</code></pre>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+        
+            <a class="nav nav-prev" href="/stack/extra-empty-string-of-split/" title="Extra Empty String of Split"> <i class="fa fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="/post/" title="Posts" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1506606600"></script>
+    <script src="/js/perfect-scrollbar.min.js?1506606600"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1506606600"></script>
+    <script src="/js/jquery.sticky-kit.min.js?1506606600"></script>
+    <script src="/js/featherlight.min.js?1506606600"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1506606600"></script>
+    <script src="/js/highlight.pack.js?1506606600"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom.71422.js?1506606600"></script>
+    <script src="/js/learn.js?1506606600"></script>
+    <script src="/js/hugo-learn.js?1506606600"></script>
+
+    <link href="/mermaid/mermaid.css?1506606600" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1506606600"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+

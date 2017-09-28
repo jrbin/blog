@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/stack/</loc>
+    <lastmod>2017-09-22T10:58:50+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2017-09-15T06:17:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cs9021/</loc>
+  </url>
+  
+  <url>
+    <loc>/cs9311/</loc>
+    <lastmod>2017-09-13T20:33:49+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cs9024/</loc>
+    <lastmod>2017-09-15T06:17:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/stack/avoid-using-unsigned/</loc>
+    <lastmod>2017-09-22T10:58:50+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/stack/extra-empty-string-of-split/</loc>
+    <lastmod>2017-09-22T10:58:50+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/stack/template-friend-function/</loc>
+    <lastmod>2017-09-22T10:58:50+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cs9024/comp9024-graph-algo/</loc>
+    <lastmod>2017-09-15T06:17:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/comp9024-graph-algo/</loc>
+    <lastmod>2017-09-15T06:17:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cs9024/comp9024-midterm/</loc>
+    <lastmod>2017-09-14T13:27:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/comp9024-midterm/</loc>
+    <lastmod>2017-09-14T13:27:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2017-09-13T20:33:49+10:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cs9311/postgresql-references/</loc>
+    <lastmod>2017-09-13T20:33:49+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/postgresql-references/</loc>
+    <lastmod>2017-09-13T20:33:49+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/c/c&#43;&#43;/</loc>
+    <lastmod>2017-09-22T10:58:50+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/comp9024/</loc>
+    <lastmod>2017-09-15T06:17:41+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/comp9311/</loc>
+    <lastmod>2017-09-13T20:33:49+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/database/</loc>
+    <lastmod>2017-09-13T20:33:49+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/postgresql/</loc>
+    <lastmod>2017-09-13T20:33:49+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2017-09-22T10:58:50+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sql/</loc>
+    <lastmod>2017-09-13T20:33:49+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2017-09-22T10:58:50+10:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+  </url>
+  
+</urlset>

@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.27.1" />
+    <meta name="description" content="Jrbin">
+<meta name="author" content="Cooper">
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+
+    <title>COMP9024 Graph Algorithm :: Jrbin</title>
+    
+    
+    <link href="/css/nucleus.css?1506606600" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1506606600" rel="stylesheet">
+    <link href="/css/hybrid.css?1506606600" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1506606600" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1506606600" rel="stylesheet">
+    <link href="/css/horsey.css?1506606600" rel="stylesheet">
+    <link href="/css/theme.css?1506606600" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1506606600" rel="stylesheet">
+    
+
+    <script src="/js/jquery-2.x.min.js?1506606600"></script>
+    
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{ 
+          display:none !important;
+      }
+      
+        :not(pre) > code + span.copy-to-clipboard {
+            display: none;
+        }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/post/comp9024-graph-algo/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="/">JrBin
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fa fa-search"></i></label>
+    <input data-search-input id="search-by" type="text" placeholder="Search...">
+    <span data-search-clear=""><i class="fa fa-close"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1506606600"></script>
+<script type="text/javascript" src="/js/horsey.js?1506606600"></script>
+<script type="text/javascript">
+    
+        var baseurl = "\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1506606600"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/stack/" title="Stack" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/stack/">
+          <b>1. </b>Stack
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/stack/avoid-using-unsigned/" title="Avoid Using Unsigned" class="dd-item ">
+        <a href="/stack/avoid-using-unsigned/">
+        Avoid Using Unsigned
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/stack/extra-empty-string-of-split/" title="Extra Empty String of Split" class="dd-item ">
+        <a href="/stack/extra-empty-string-of-split/">
+        Extra Empty String of Split
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/stack/template-friend-function/" title="Template Friend Function" class="dd-item ">
+        <a href="/stack/template-friend-function/">
+        Template Friend Function
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/post/" title="Posts" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/post/">
+          <b>2. </b>Posts
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/post/comp9024-graph-algo/" title="COMP9024 Graph Algorithm" class="dd-item active">
+        <a href="/post/comp9024-graph-algo/">
+        COMP9024 Graph Algorithm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/post/comp9024-midterm/" title="COMP9024 Midterm" class="dd-item ">
+        <a href="/post/comp9024-midterm/">
+        COMP9024 Midterm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/post/postgresql-references/" title="Postgresql References" class="dd-item ">
+        <a href="/post/postgresql-references/">
+        Postgresql References
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cs9021/" title="9021" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cs9021/">
+          <b>3. </b>9021
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cs9311/" title="9311" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cs9311/">
+          <b>4. </b>9311
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cs9311/postgresql-references/" title="Postgresql References" class="dd-item ">
+        <a href="/cs9311/postgresql-references/">
+        Postgresql References
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cs9024/" title="9024" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/cs9024/">
+          <b>5. </b>9024
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cs9024/comp9024-graph-algo/" title="COMP9024 Graph Algorithm" class="dd-item ">
+        <a href="/cs9024/comp9024-graph-algo/">
+        COMP9024 Graph Algorithm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cs9024/comp9024-midterm/" title="COMP9024 Midterm" class="dd-item ">
+        <a href="/cs9024/comp9024-midterm/">
+        COMP9024 Midterm
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li class="" role=""> 
+                  <a class="padding" href="https://github.com/jrbin/blog"><i class='fa fa-github'></i> Github repo</a>
+              </li>
+          
+              <li class="" role=""> 
+                  <a class="padding" href="/showcase"><i class='fa fa-camera'></i> Showcases</a>
+              </li>
+          
+              <li class="" role=""> 
+                  <a class="padding" href="https://gohugo.io/"><i class='fa fa-bookmark'></i> Hugo Documentation</a>
+              </li>
+          
+              <li class="" role=""> 
+                  <a class="padding" href="/credits"><i class='fa fa-bullhorn'></i> Credits</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="prefooter">
+      <hr/>
+      <ul>
+       
+      
+      
+      </ul>
+    </section>
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fa fa-heart"></i></a> from <a href="http://getgrav.org">Grav</a> and <a href="http://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable sticky-parent">
+              
+              <div class="sticky-spacer">
+                <div id="top-bar">
+                
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" href="https://github.com/jrbin/blog/edit/master/content/post/comp9024-graph-algo.md" target="blank">
+                      <i class="fa fa-code-fork"></i>
+                      Edit this page
+                    </a>
+                  </div>
+                  
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>JrBin</a> > <a href='/post/'>Posts</a> > COMP9024 Graph Algorithm
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li><a href="#graph-algorithm">Graph Algorithm</a>
+<ul>
+<li><a href="#path-finding">Path finding</a>
+<ul>
+<li><a href="#dfs">DFS</a></li>
+<li><a href="#bfs">BFS</a></li>
+<li><a href="#计算连通分量数量">计算连通分量数量</a></li>
+<li><a href="#hamiltonian-path">Hamiltonian path</a></li>
+<li><a href="#euler-path">Euler Path</a></li>
+</ul></li>
+<li><a href="#transitive-closure">Transitive Closure</a></li>
+<li><a href="#shortest-path">Shortest path</a>
+<ul>
+<li><a href="#dijkstra">Dijkstra</a></li>
+</ul></li>
+<li><a href="#minimum-spanning-tree">Minimum spanning tree</a>
+<ul>
+<li><a href="#prim">Prim</a></li>
+<li><a href="#kruskal">Kruskal</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+
+        
+        <div id="body-inner">
+          
+            <h1>COMP9024 Graph Algorithm</h1>
+          
+
+        
+
+
+
+<h1 id="graph-algorithm">Graph Algorithm</h1>
+
+<h2 id="path-finding">Path finding</h2>
+
+<h3 id="dfs">DFS</h3>
+
+<p>Depth first search 深度优先</p>
+
+<p><img src="/img/traversal.png" alt="dfs path finding" /></p>
+
+<pre><code class="language-no-highlight">0
+0, 1
+0, 1, 5
+0, 1, 5, 3
+0, 1, 5, 3, 2
+0, 1, 5, 3, 4
+0, 1, 5, 3, 4, 7
+0, 1, 5, 3, 4, 7, 8
+0, 1, 5, 3, 4, 7, 8, 9
+0, 1, 5, 6
+</code></pre>
+
+<p>伪代码</p>
+
+<pre><code class="language-no-highlihg">function dfs(src, dst) {
+    visited[src] = true
+    for edge from src {
+        if not visited[edge.dst] {
+            if edge.dst == dst {
+                return true
+            }
+            if dfs(edge.dst, dst)  {
+                return true
+            }
+        }
+    }
+    return false
+}
+</code></pre>
+
+<h3 id="bfs">BFS</h3>
+
+<p>Breadth first search 广度优先</p>
+
+<p><img src="/img/traversal.png" alt="dfs path finding" /></p>
+
+<pre><code class="language-no-highlight">0
+1, 2, 5
+2, 5
+5, 3
+3, 4, 6, 7
+4, 6, 7, 8
+6, 7, 8
+7, 8
+8, 9
+9
+</code></pre>
+
+<p>伪代码</p>
+
+<pre><code class="language-no-highlight">function bfs(src, dst) {
+    q = queue_init()
+    enqueue(q, src)
+    visited[src] = true
+    while queue is not empty {
+        node = dequeue(q)
+        for edge from node {
+            if not visited[edge.dst] {
+                visited[edge.dst] = true
+                enqueue(q, edge.dst)
+            }
+        }
+    }
+}
+</code></pre>
+
+<h3 id="计算连通分量数量">计算连通分量数量</h3>
+
+<p>假设一个图不是连通的，也就是说它至少有2个连通分量，用一种算法计算其中连通分量个数。</p>
+
+<p>提示：用dfs填充每一个分量，在外层调用dfs的次数就是连通分量的个数，因为每次dfs会填满一个连通分量。</p>
+
+<h3 id="hamiltonian-path">Hamiltonian path</h3>
+
+<p>一条经过所有点的路径，并且路径中没有重复顶点。如果开始顶点和结束顶点是同一个，则是Hamiltonian circuit</p>
+
+<p>代码不用记，记思路，就是dfs找遍图中每一条路径。</p>
+
+<p>练习</p>
+
+<p><img src="/img/traversal3.png" alt="Hamiltonian path" /></p>
+
+<h3 id="euler-path">Euler Path</h3>
+
+<p>一条刚好经过图中所有边的路径。如果开始顶点和结束顶点是同一个，则是Euler circuit</p>
+
+<blockquote>
+<p>理论：有Euler circuit &lt;-&gt; 是连通图 并且 所有顶点度数是偶数</p>
+
+<p>理论：有Euler path &lt;-&gt; 是连通图 并且 有且只有2个顶点度数是奇数（就是开始和结束的那两个顶点）</p>
+</blockquote>
+
+<h2 id="transitive-closure">Transitive Closure</h2>
+
+<p>意思就是从每个点出发，最终能到另外哪些点。最后也会得到一个matrix叫reachability matrix</p>
+
+<p><img src="/img/tc.png" alt="Transitive Closure" /></p>
+
+<p>算法是Warshall algorithm，其实很好记，三个for循环</p>
+
+<pre><code class="language-c">int **tc_mat = copy(adjacency_mat); // pseudo code
+for (int k = 0; k &lt; n_vertices; k++) {
+    for (int i = 0; i &lt; n_vertices; i++) {
+        for (int j = 0; j &lt; n_vertices; j++) {
+            if (tc_mat[i][k] &amp;&amp; tc_mat[k][j]) {
+                tc_mat[i][j] = 1;
+            }
+        }
+    }
+}
+
+// calculate shortest path using warshall's algorithm
+// 少用因为是O(V^3)的，后面讲的比较常用的dijkstra是O(V^2)的
+// 但dijkstra不能处理有负边的图，这种算法能判断图中有没有负边
+for (int k = 0; k &lt; n_vertices; k++) {
+    for (int i = 0; i &lt; n_vertices; i++) {
+        for (int j = 0; j &lt; n_vertices; j++) {
+            if (tc_mat[i][j] &gt; tc_mat[i][k] + tc_mat[k][j]) {
+                tc_mat[i][j] = tc_mat[i][k] + tc_mat[k][j];
+            }
+        }
+    }
+}
+</code></pre>
+
+<h2 id="shortest-path">Shortest path</h2>
+
+<p>单源最短路，常用的Dijkstra, Bellman Ford, Floyd Warshall</p>
+
+<h3 id="dijkstra">Dijkstra</h3>
+
+<p><img src="/img/dijkstra.png" alt="Dijkstra" /></p>
+
+<table>
+<thead>
+<tr>
+<th>Iteration</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>visit</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>0</td>
+</tr>
+
+<tr>
+<td>1</td>
+<td>0</td>
+<td>14</td>
+<td>9</td>
+<td>7</td>
+<td>+</td>
+<td>+</td>
+<td>3</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>0</td>
+<td>14</td>
+<td>9</td>
+<td>7</td>
+<td>+</td>
+<td>22</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>0</td>
+<td>13</td>
+<td>9</td>
+<td>7</td>
+<td>+</td>
+<td>12</td>
+<td>5</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>0</td>
+<td>13</td>
+<td>9</td>
+<td>7</td>
+<td>20</td>
+<td>12</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>0</td>
+<td>13</td>
+<td>9</td>
+<td>7</td>
+<td>18</td>
+<td>12</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>0</td>
+<td>13</td>
+<td>9</td>
+<td>7</td>
+<td>18</td>
+<td>12</td>
+<td>no update</td>
+</tr>
+</tbody>
+</table>
+
+<pre><code class="language-c">void dijkstra(int src) {
+    int dist[n_vertices] = {INT_MAX};
+    int pred[n_vertices] = {-1};
+    int visited[n_vertices] = {0};
+    dist[src] = 0;
+    while (1) {
+        // find unvisited vertex with min dist
+        int v = -1;
+        int min_dist = INT_MAX;
+        for (int i = 0; i &lt; n_vertices; i++) {
+            if (!visited[v] &amp;&amp; dist[v] &lt; min_dist) {
+                min_dist = dist[v];
+                v = i;
+            }
+        }
+        if (v == -1) {
+            // no update, end the algorithm
+            break;
+        }
+        visited[v] = 1;
+        // update v's neighbours
+        for (int u = 0; u &lt; n_vertices; u++) {
+            if (mat[v][u] &amp;&amp; dist[u] &gt; dist[v] + mat[v][u]) {
+                dist[u] = dist[v] + mat[v][u];
+                pred[u] = v;
+            }
+        }
+    }
+}
+</code></pre>
+
+<p>\(O(V^2)\)</p>
+
+<p>用堆优化可以更快，lecture slide里也只是提了一下</p>
+
+<h2 id="minimum-spanning-tree">Minimum spanning tree</h2>
+
+<p>最小生成树，一个图的生成树，并且这个生成树的所有边的和是在这个图的所有生成树中最小的</p>
+
+<h3 id="prim">Prim</h3>
+
+<p>思路有点类似Dijkstra，从任意点出发，每次选取当前能够选取的最小的边。可以把Dijkstra的代码稍微改一下就得到这个算法。</p>
+
+<pre><code class="language-c">int prim(int src) {
+    int dist[n_vertices] = {INT_MAX};
+    int visited[n_vertices] = {0};
+    dist[src] = 0;
+    int result = 0;
+    while (1) {
+        // find unvisited vertex with min dist
+        int v = -1;
+        int min_dist = INT_MAX;
+        for (int i = 0; i &lt; n_vertices; i++) {
+            if (!visited[v] &amp;&amp; dist[v] &lt; min_dist) {
+                min_dist = dist[v];
+                v = i;
+            }
+        }
+        if (v == -1) {
+            // no update, end the algorithm
+            break;
+        }
+        result += dist[v];
+        visited[v] = 1;
+        // update v's neighbours
+        for (int u = 0; u &lt; n_vertices; u++) {
+            if (mat[v][u] &amp;&amp; dist[u] &gt; dist[v]) {
+                dist[u] = dist[v];
+            }
+        }
+    }
+    return result;
+}
+</code></pre>
+
+<h3 id="kruskal">Kruskal</h3>
+
+<p>每次从边中选取最小的加入到生成树中，只要不与已经选择的边形成cycle就行了，直到这个生成树有n-1条边，停止算法。</p>
+
+<p>用Array of edges实现起来比较简单。</p>
+
+<p>两种算法最后得到的最小生成树可能不一样，但最小生成树的边的和是相等的。</p>
+
+<p><img src="/img/spanning-tree.png" alt="spanning tree" /></p>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+        
+            <a class="nav nav-prev" href="/post/" title="Posts"> <i class="fa fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="/post/comp9024-midterm/" title="COMP9024 Midterm" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1506606600"></script>
+    <script src="/js/perfect-scrollbar.min.js?1506606600"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1506606600"></script>
+    <script src="/js/jquery.sticky-kit.min.js?1506606600"></script>
+    <script src="/js/featherlight.min.js?1506606600"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1506606600"></script>
+    <script src="/js/highlight.pack.js?1506606600"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom.71422.js?1506606600"></script>
+    <script src="/js/learn.js?1506606600"></script>
+    <script src="/js/hugo-learn.js?1506606600"></script>
+
+    <link href="/mermaid/mermaid.css?1506606600" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1506606600"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+
