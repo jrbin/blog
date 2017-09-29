@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
-title = "Jrbin"
+title = "JrBin"
 theme = "learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= false
