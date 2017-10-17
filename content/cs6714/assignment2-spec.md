@@ -59,6 +59,7 @@ Number of negative samples for the Sampled_Softmax loss, as illustrated in the n
 ### 1.2.2 Fixed Parameters:
 
 To simplify experimentation, we will fix values for following parameters:
+
 1. **Embedding_dimensions** <br>
 You will be using 200-dimensions for the embeddings
 
