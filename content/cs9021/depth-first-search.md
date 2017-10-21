@@ -55,8 +55,17 @@ Answer: 3
 对于矩阵中每个点，如果是`1`，就从它开始找包含它但连通区域并把连通区域上所有点置为0（DFS）（这样就不会重复计算连通区域），并且count加一。
 
 ```python
+DX = [1, 0, -1, 0]
+DY = [0, 1, 0, -1]
+
 def dfs(matrix, i, j):
-    pass
+    # 如果四周都是0，return
+    matrix[i][j] = 0
+    for k in range(4):
+        ni = i + DX[k]
+        nj = j + DY[k]
+        if 0 <= ni < len(matrix) and 0 <= nj < len(matrix[0]) and matrix[ni][nj] == 1:
+            dfs(matrix, ni, nj)
 
 def num_components(matrix):
     count = 0
@@ -97,11 +106,32 @@ Answer: 3
 ### 解法
 
 ```python
+DX = [1, 0, -1, 0]
+DY = [0, 1, 0, -1]
+
 def dfs(matrix, x, y, d, stack):
-    pass
+    matrix[x][y] = 9
+    stack.append((x, y))
+    print(str(stack)[7:-2])
+    if x == len(matrix) - 1 and y == len(matrix[0]) - 1:
+        return True
+    for _ in range(4):
+        nx = x + DX[d]
+        ny = y + DY[d]
+        if 0 <= nx < len(matrix) and 0 <= ny < len(matrix[0]) and matrix[nx][ny] == 0:
+            if dfs(matrix, nx, ny, d, stack):
+                return True
+        d = (d + 1) % 4
+    matrix[x][y] = 0
+    stack.pop()
+    return False
 
 def find_path(matrix):
-    pass
+    stack = deque()
+    if dfs(matrix, 0, 0, 0, stack):
+        print('We have found a path!')
+    else:
+        print('No possible path.')
 ```
 
 ## Lab10 Q2
@@ -152,8 +182,21 @@ Answer:
 
 ```python
 def helper(array):
-    pass
+    assert array
+    if len(array) == 1:
+        return [(array[0], str(array[0]))]
+    result = []
+    for i in range(1, len(array)):
+        for lhs in helper(array[:i]):
+            for rhs in helper(array[i:]):
+                result.append((lhs[0] - rhs[0], '({0} - {1})'.format(lhs[1], rhs[1])))
+    return result
 
 def subtractions(array, total):
-    pass
+    print('-------------')
+    print('find answer for', array, total)
+    for line in helper(array):
+        if line[0] == total:
+            print(line[1][1:-1])
+    print()
 ```

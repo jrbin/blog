@@ -41,8 +41,20 @@ Answer: `123`
 
 ```python
 def to_radix_str(n, r):
-    pass
+    result = []
+    while n:
+        d = n % r
+        if d >= 10:
+            s = chr(65 + d - 10)
+        else:
+            s = str(d)
+        result.append(s)
+        n //= r
+    return ''.join(reversed(result))
 
 def from_radix_str(s, r):
-    pass
+    result = 0
+    for c in s:
+        result = r * result + int(c)
+    return result
 ```

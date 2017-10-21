@@ -30,6 +30,36 @@ def main():
 ### Lab9 Q1 计算表达式
 
 ```python
+MATCH = {
+    ')': '(',
+    ']': '[',
+    '}': '{'
+}
+
+def calculate(stack, c):
+    ops = []
+    while stack:
+        top = stack.pop()
+        if top == MATCH[c]:
+            break
+        ops.append(top)
+    else:
+        assert False
+    print('{0[2]:8.1f} {0[1]} {0[0]:8.1f}'.format((ops)))
+    assert len(ops) == 3
+    num = None
+    if ops[1] == '+':
+        num = ops[2] + ops[0]
+    elif ops[1] == '-':
+        num = ops[2] - ops[0]
+    elif ops[1] == '*':
+        num = ops[2] * ops[0]
+    elif ops[1] == '/':
+        num = ops[2] / ops[0]
+    else:
+        assert False
+    stack.append(num)
+
 def evaluate(s):
     stack = deque()
     num = 0
