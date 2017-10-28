@@ -14,7 +14,7 @@ def bfs(initial_state):
     queue = deque()
     queue.append(initial_state)
     while queue:
-        state = queue.pop()
+        state = queue.popleft()
         # do something with current state
         for new_state in explore_neighbours(state):
             queue.push(state)
